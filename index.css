@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1.2px solid #e9ecef;
+    align-items: center;
+}
+ul.nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.nav-container{
+    margin-left: auto;
+}
+.logo img{
+    max-width: 120px;
+}
+.image-card {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    padding:20px;
+    border:1.2px solid;
+    border-radius:8px;
+}
+.image-card img {
+    width: 100%;
+    height: 100%;
+}
+.image-container{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

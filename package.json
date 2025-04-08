@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "react training",
+  "scripts": {
+    "start":"parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/srinath-shankar/React)"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "srinath",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.14.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
