@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "react training",
   "scripts": {
-    "start":"parcel index.html",
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,6 +16,7 @@
   "author": "srinath",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.5",
     "parcel": "^2.14.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
