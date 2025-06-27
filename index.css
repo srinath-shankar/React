@@ -25,6 +25,7 @@ ul.nav-list{
     padding:20px;
     border:1.2px solid;
     border-radius:8px;
+    max-width: 320px;
 }
 .image-card img {
     width: 100%;
@@ -34,6 +35,46 @@ ul.nav-list{
     display: flex;
     flex-flow: row;
     gap: 20px;
-    justify-content: space-between;
     flex-wrap: wrap;
+}
+input[type="text"] {
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    padding-block: 32px;
+    padding-inline: 32px;
+    background: antiquewhite;
+    gap: 20px;
+}
+.open-status {
+    position: relative;
+}
+.open-status > h3 {
+    position: absolute;
+    top: 0;
+    color: black;
+    background: pink;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.itemCard {display: flex;justify-content: space-between;}
+
+.item-image {
+    width: 150px;
+    max-height: 150px;
+    border-radius: 100px;
+}
+
+.accordion {
+    margin-bottom: 30px;
+}
+
+.itemCard {
+    border-bottom: 1px solid;
+    margin-bottom: 32px;
+    padding: 20px;
+    background: antiquewhite;
 }
